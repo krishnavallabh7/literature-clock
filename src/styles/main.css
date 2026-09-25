@@ -513,3 +513,6 @@ html,
 body {
   background: transparent !important;
 }
+:root {
+  color-scheme: light;
+}
