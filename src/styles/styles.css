@@ -20,3 +20,12 @@
 @import url(custom-colors.css);
 
 @import url(quote-library.css);
+
+/* My changes: transparent background for the Notion embed */
+html, body, main, #clock {
+  background: transparent !important;
+}
+
+:root {
+  color-scheme: light dark;
+}
