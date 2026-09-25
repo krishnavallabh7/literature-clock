@@ -508,3 +508,8 @@ body.share-quote #clock {
 #reading-status button { margin-inline-start: 0.5rem; font: inherit; }
 body.paused #time-clock { display: block !important; }
 body.paused #quote-notice { top: 4.5rem; }
+/* Make the clock see-through so it blends into Notion */
+html,
+body {
+  background: transparent !important;
+}
